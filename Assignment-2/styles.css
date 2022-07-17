@@ -46,3 +46,27 @@ body {
   width: 300px;
   top: 200px;
 }
+
+.btns {
+  display: flex;
+  margin-bottom: 50px;
+  width: 250px;
+  grid-gap: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 2px solid blueviolet;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+}
