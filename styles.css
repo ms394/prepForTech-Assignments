@@ -9,7 +9,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #94b3fd;
+  color: #99feff;
 }
 a:hover {
   text-decoration: underline;
@@ -40,4 +40,25 @@ ul li {
   list-style: none;
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+/* Grid Container */
+.gridContainer {
+  display: grid;
+}
+
+.grid2 {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.card {
+  background-color: #191919;
+  padding: 30px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+  color: #a79bfe;
+  margin-bottom: 30px;
 }
