@@ -4,8 +4,15 @@
   font-family: sans-serif;
 }
 
+.monospace {
+  font-size: 24px;
+  color: white;
+  font-family: "VT323", monospace;
+  font-family: "IBM Plex Mono", monospace;
+}
+
 body {
-  background-color: #1b1b1b;
+  background-color: #191919;
 }
 a {
   text-decoration: none;
@@ -16,9 +23,8 @@ a:hover {
 }
 
 header {
-  background-color: #191919;
+  background-color: #141414;
   padding: 10px 50px;
-  text-align: center;
   color: white;
   margin-bottom: 50px;
 }
@@ -61,4 +67,14 @@ ul li {
 .title {
   color: #a79bfe;
   margin-bottom: 30px;
+}
+footer {
+  padding: 10px 50px;
+  background-color: #141414;
+  color: white;
+  text-align: center;
+}
+
+footer p span {
+  color: tomato;
 }
